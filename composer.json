@@ -1,0 +1,30 @@
+{
+  "name": "bloodlog/clean-isolate-architect",
+  "description": "",
+  "authors": [
+    {
+      "name": "bloodlog",
+      "email": "bloodlog@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bloodlog\\Src\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/TestCase.php"
+    ],
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6.9",
+    "mockery/mockery": "^1.6"
+  }
+}
