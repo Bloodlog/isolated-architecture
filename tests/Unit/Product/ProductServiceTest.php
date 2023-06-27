@@ -7,7 +7,8 @@ use Bloodlog\Src\Product\Factory\ProductFactoryInterface;
 use Bloodlog\Src\Product\Repository\ProductRepositoryInterface;
 use Bloodlog\Src\Product\Service\ProductService;
 use Mockery;
-use PHPUnit\Framework\TestCase;
+use Tests\TestCase;
+
 
 class ProductServiceTest extends TestCase
 {
