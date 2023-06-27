@@ -1,7 +1,8 @@
 {
-  "name": "bloodlog/clean-isolate-architect",
+  "name": "bloodlog/isolated-architecture",
   "description": "",
   "license": "MIT",
+  "type": "project",
   "authors": [
     {
       "name": "bloodlog",
@@ -28,9 +29,17 @@
     "phpunit/phpunit": "^9.6.9",
     "mockery/mockery": "^1.6"
   },
+  "prefer-stable": true,
   "scripts": {
     "test": [
       "phpunit tests/*.php"
     ]
+  },
+  "config": {
+    "platform": {
+      "php": "8.1"
+    },
+    "optimize-autoloader": true,
+    "sort-packages": true
   }
 }
